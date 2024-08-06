@@ -25,8 +25,8 @@ while True:
 
     if choice in ("1", "2", "3", "4"):
         try:
-            num1 = float(input("Enter first number: "))
-            num2 = float(input("Enter second number: "))
+            num1 = int(input("Enter first number: "))
+            num2 = int(input("Enter second number: "))
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
@@ -43,7 +43,7 @@ while True:
         elif choice == "4":
             print(num1, "/", num2, "=", div(num1, num2))
 
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        next_calculation = input("To Exit type no: ")
         if next_calculation == "no":
             break
     else:
