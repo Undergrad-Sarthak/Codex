@@ -1,6 +1,6 @@
 # Codex
 A rustic codex of the projects.
-1.
+1. Calculator
 <!--
 2.
 3.
