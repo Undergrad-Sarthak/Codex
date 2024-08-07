@@ -12,3 +12,4 @@ A rustic codex of the projects.
 9.
 10.
 -->
+And a folder with projects from "100 days of code" from replit 
