@@ -1,6 +1,8 @@
 # Codex
 A rustic codex of the projects.
-1. Calculator
+1. Python projects
+    1.Calculator
+    2.Tkniter_Calculator with GUI
 <!--
 2.
 3.
