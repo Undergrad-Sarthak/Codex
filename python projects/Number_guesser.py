@@ -21,7 +21,7 @@ print("Choose your difficulty:")
 print("1: numbers 0-10")
 print("2: numbers 0-100")
 print("3: numbers 0-1000")
-limit = input("1,2,3 -> ")
+limit = input("1, 2, 3 -> ")
 
 
 if limit == "1":

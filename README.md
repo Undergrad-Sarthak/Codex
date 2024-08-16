@@ -11,7 +11,6 @@ A rustic codex of the projects.
 <!--<li>Web Development projects</li>
     <ol>
         <li>   </li>
-        <li>   </li>
     </ol>
 -->
 </ol>

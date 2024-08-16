@@ -43,7 +43,7 @@ while True:
         elif choice == "4":
             print(num1, "/", num2, "=", div(num1, num2))
 
-        next_calculation = input("To Exit type no: ")
+        next_calculation = input("To Exit type 'no': ")
         if next_calculation == "no":
             break
     else:

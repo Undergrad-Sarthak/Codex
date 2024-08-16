@@ -1,6 +1,6 @@
-print("Welcome to Riddler")
-print("where you will try your best to solve 5 riddles")
-print("Oh! I forgot to tell you that the answers are single worded")
+print("Welcome to Riddler...")
+print("A place where you will try your best to solve 5 riddles.")
+print("Oh! and I forgot to tell you that the answers are single worded.")
 playing = input("Do you dare to continue? ")
 if playing.lower() != "yes":
     quit()

@@ -46,6 +46,90 @@ result_label = Label(root, text="", bg="black", fg="white")
 result_label.grid(row=0, column=0, pady=(50, 25), columnspan=4, sticky="e")
 result_label.config(font=("verdana", 30, "bold"))
 
+btn_0 = Button(
+    root,
+    text="0",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(0),
+)
+btn_0.grid(row=4, column=1)
+btn_0.config(font=("verdana", 14))
+
+btn_1 = Button(
+    root,
+    text="1",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(1),
+)
+btn_1.grid(row=3, column=0)
+btn_1.config(font=("verdana", 14))
+
+btn_2 = Button(
+    root,
+    text="2",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(2),
+)
+btn_2.grid(row=3, column=1)
+btn_2.config(font=("verdana", 14))
+
+btn_3 = Button(
+    root,
+    text="3",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(3),
+)
+btn_3.grid(row=3, column=2)
+btn_3.config(font=("verdana", 14))
+
+btn_4 = Button(
+    root,
+    text="4",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(4),
+)
+btn_4.grid(row=2, column=0)
+btn_4.config(font=("verdana", 14))
+
+btn_5 = Button(
+    root,
+    text="5",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(5),
+)
+btn_5.grid(row=2, column=1)
+btn_5.config(font=("verdana", 14))
+
+btn_6 = Button(
+    root,
+    text="6",
+    bg="#FF9912",
+    fg="black",
+    width=4,
+    height=2,
+    command=lambda: get_digit(6),
+)
+btn_6.grid(row=2, column=2)
+btn_6.config(font=("verdana", 14))
+
 btn_7 = Button(
     root,
     text="7",
@@ -94,42 +178,6 @@ btn_add = Button(
 btn_add.grid(row=1, column=3)
 btn_add.config(font=("verdana", 14))
 
-btn_4 = Button(
-    root,
-    text="4",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(4),
-)
-btn_4.grid(row=2, column=0)
-btn_4.config(font=("verdana", 14))
-
-btn_5 = Button(
-    root,
-    text="5",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(5),
-)
-btn_5.grid(row=2, column=1)
-btn_5.config(font=("verdana", 14))
-
-btn_6 = Button(
-    root,
-    text="6",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(6),
-)
-btn_6.grid(row=2, column=2)
-btn_6.config(font=("verdana", 14))
-
 btn_sub = Button(
     root,
     text="-",
@@ -141,42 +189,6 @@ btn_sub = Button(
 )
 btn_sub.grid(row=2, column=3)
 btn_sub.config(font=("verdana", 14))
-
-btn_1 = Button(
-    root,
-    text="1",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(1),
-)
-btn_1.grid(row=3, column=0)
-btn_1.config(font=("verdana", 14))
-
-btn_2 = Button(
-    root,
-    text="2",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(2),
-)
-btn_2.grid(row=3, column=1)
-btn_2.config(font=("verdana", 14))
-
-btn_3 = Button(
-    root,
-    text="3",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(3),
-)
-btn_3.grid(row=3, column=2)
-btn_3.config(font=("verdana", 14))
 
 btn_mul = Button(
     root,
@@ -190,7 +202,7 @@ btn_mul = Button(
 btn_mul.grid(row=3, column=3)
 btn_mul.config(font=("verdana", 14))
 
-btn_AC = Button(
+btn_clear = Button(
     root,
     text="AC",
     bg="#FF9912",
@@ -199,20 +211,8 @@ btn_AC = Button(
     height=2,
     command=lambda: clear(),
 )
-btn_AC.grid(row=4, column=0)
-btn_AC.config(font=("verdana", 14))
-
-btn_0 = Button(
-    root,
-    text="0",
-    bg="#FF9912",
-    fg="black",
-    width=4,
-    height=2,
-    command=lambda: get_digit(0),
-)
-btn_0.grid(row=4, column=1)
-btn_0.config(font=("verdana", 14))
+btn_clear.grid(row=4, column=0)
+btn_clear.config(font=("verdana", 14))
 
 btn_equals = Button(
     root,
