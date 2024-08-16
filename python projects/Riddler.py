@@ -1,13 +1,14 @@
-print("Welcome to quiz")
-playing = input("Do you want to start the quiz?")
+print("Welcome to Riddler")
+print("where you will try your best to solve 5 riddles")
+print("Oh! I forgot to tell you that the answers are single worded")
+playing = input("Do you dare to continue?")
 if playing.lower() != "yes" or playing.lower() != "y":
     quit()
 else:
     score = 0
-    print("here are the riddles with 1 word answers:")
 
-    ques = input("What number of month(s) of the year has 28 days? ")
-    ans = "12"
+    ques = input("What number of month(s) of the year has 28 days?(in words)")
+    ans = "twelve"
     if ques.lower() == ans:
         score += 1
         print("correct:", score, "/ 5")
